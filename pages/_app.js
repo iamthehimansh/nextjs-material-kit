@@ -49,7 +49,7 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>KKG Fans</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>

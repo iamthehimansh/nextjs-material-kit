@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="KKG Fans"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -56,14 +56,13 @@ export default function LandingPage(props) {
               </h4>
               <br />
               <Button
-                color="danger"
+                color="danger"//sucess
                 size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
+                href="tel:919999999999"
                 rel="noopener noreferrer"
               >
-                <i className="fas fa-play" />
-                Watch video
+                <i className="fas fa-phone-alt" />
+                Call Us
               </Button>
             </GridItem>
           </GridContainer>
