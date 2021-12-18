@@ -54,10 +54,12 @@ export default function Components(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         
         <SectionCarousel />
-            <GridItem xs={12} sm={2} className={classes.marginLeft}>
             
             
-            {[1,2,3,4,5,6,7,8,].map((e,i)=><Link key={i} href="/products/1234">
+            {[1,2,3,4,5,6,7,8,].map((e,i)=>
+            <GridItem key={i} xs={12} sm={2} className={classes.marginLeft}>
+            
+            <Link  href="/products/1234">
                 <a className={classes.link}>
                 
                 <h4>Rounded Raised</h4>
@@ -72,12 +74,14 @@ export default function Components(props) {
                     classes.imgFluid
                     }
                 />
-                
+                <br/>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius sagittis nisi, vel iaculis libero sodales eu. Quisque posuere nec nunc nec ornare. Maecenas venenatis lacus justo, sit amet placerat sapien tincidunt vel. Pellentesque leo dui, porttitor id lacus eget, finibus porta lacus. Mauris vel dictum ante, sed lobortis magna. Sed feugiat aliquet arcu. Morbi fermentum id purus non hendrerit. Cras eget volutpat purus. Mauris a ullamcorper metus, nec luctus ante. Sed non diam velit. Cras pretium venenatis nunc fermentum laoreet.
                 </a>
-            </Link>)}
-
-
+            </Link>
             </GridItem>
+            )}
+
+
       </div>
       <Footer />
     </div>

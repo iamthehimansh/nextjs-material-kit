@@ -52,13 +52,13 @@ export default function HeaderLinks(props) {
           color="transparent"
           className={classes.navLink}
         >
-          <Icon className={classes.icons}>Category</Icon> Products
+          <Icon className={classes.icons}>category</Icon> Products
         </Button>
       </ListItem>
       
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="www.codeProps.com"
           color="transparent"
           target="_blank"
           className={classes.navLink}
